@@ -1,0 +1,17 @@
+1.What is the dierence between Git and GitHub?
+	GIT can be used indepentantly as a seperate tool
+
+2.What is the purpose of running the command “git init”
+	When using Git on a project or single file a repository must be initialized using the command git init. Also,
+	git init is used to track changes in a folder
+
+3.How can you add all of the changed files to a commit without typing the  name of each file?
+	By using the command git add .. It is important to included the period after the the git add command to signify
+	the adding of all of the changed files to a comit
+
+
+4.Pretend you are working on production code for anapplication being used by thousands of users. Why wouldn’t
+ you want to use the masterbranch for your active development?
+	Other than the master branch the develope branch will consist of changes that will be merged
+	into the master branch for new patches or updates and releases. It is recommended to created branches
+	for fixes or new features that undergo approval before committing to the master branch
